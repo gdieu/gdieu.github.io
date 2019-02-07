@@ -21,9 +21,25 @@ Some stuff here:
 
 blablalba blalblalbla blalb
 
-~~~
-	code here
-~~~
+{% highlight python %}
+#!/usr/bin/env python
+
+from flask import Flask, redirect, render_template, session, request
+import os
+import re
+import logging
+
+app = Flask(__name__)
+app.secret_key = 'CwV5+/cnudldjqiNSKn5yV6JwUm+jsYb'
+handler = logging.StreamHandler()
+handler.setLevel(logging.INFO)
+app.logger.addHandler(handler)
+
+
+#redirect to the current challenge or the index.html
+@app.route('/')
+def index():
+{% endhighlight %}
 
 `test1` sdvvfvdv `test2`
 
