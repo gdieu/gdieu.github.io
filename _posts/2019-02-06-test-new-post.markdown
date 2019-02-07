@@ -1,7 +1,7 @@
 ---
-categories: ["cath 1", "cath 2", "cath 3"]
 layout: post
 title: "Test New Post"
+tags: [tag1, tag2, tag3]
 date: 2019-02-06T18:38:17-05:00
 ---
 
