@@ -45,4 +45,5 @@ def index():
 
 
 ... which is shown in the screenshot below:
-![My helpful screenshot](/_assets/cbc.png)
+
+![My helpful screenshot](/assets/cbc.png)
