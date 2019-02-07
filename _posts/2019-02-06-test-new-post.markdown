@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test New Post"
-tags: [tag1, tag2, tag3]
+tags: tag1 tag2 tag3
 date: 2019-02-06T18:38:17-05:00
 ---
 
@@ -43,3 +43,6 @@ def index():
 
 `test1` sdvvfvdv `test2`
 
+
+... which is shown in the screenshot below:
+![My helpful screenshot](/_assets/cbc.png)
