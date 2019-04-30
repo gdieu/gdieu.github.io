@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How does a linux kernel boot?"
-tags: tag1 tag2 tag3
+categories: ['Linux']
 date: 2019-03-06T18:38:17-05:00
 ---
 
@@ -24,5 +24,5 @@ The boot process can be broken down into 6 steps:
 ![boot load process](/assets/kernelBoot.jpg)
 </div>
 
-note about UEFI Secure boot:
+Note about UEFI Secure boot:
 The secure boot provided with recent system requires a signed boot loader by a trusted authority in order to work. Consequently, the unsigned boot loader you can find with Linux won’t correctly load. A workaround consists of disabling the secure boot in the settings but may be an issue with dual boot configuration. Since, Linux system is offering signed secure boot.
