@@ -20,7 +20,7 @@ The boot process can be broken down into 6 steps:
 * **step5:** The kernel spawns the first process called init with an ID equal to 1. At this point the user space is starting.
 * **step6:** The rest of the system processes are sets in motion.
 
-![boot load process](/assets/kernelBoot.png)
+![boot load process](/assets/kernelBoot.jpg)
 
 
 note about UEFI Secure boot:
