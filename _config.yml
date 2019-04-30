@@ -16,7 +16,7 @@
 title: Gerome Dieu
 email: gerome.dieu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. TODO
+  "The significant problems we face cannot be solved by the same level of thinking that created them." - Albert Einstein
 baseurl: "gdieu.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _gdieu
