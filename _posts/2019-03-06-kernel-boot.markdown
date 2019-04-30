@@ -20,8 +20,9 @@ The boot process can be broken down into 6 steps:
 * **step5:** The kernel spawns the first process called init with an ID equal to 1. At this point the user space is starting.
 * **step6:** The rest of the system processes are sets in motion.
 
+<div style="text-align:center" markdown="1">
 ![boot load process](/assets/kernelBoot.jpg)
-
+</div>
 
 note about UEFI Secure boot:
 The secure boot provided with recent system requires a signed boot loader by a trusted authority in order to work. Consequently, the unsigned boot loader you can find with Linux won’t correctly load. A workaround consists of disabling the secure boot in the settings but may be an issue with dual boot configuration. Since, Linux system is offering signed secure boot.
